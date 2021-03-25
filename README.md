@@ -40,4 +40,4 @@ Running the Webhook
 4. In your **browser console** (note: node _**will not**_ work for this) copy and paste the JS code[^1];
 5. Run the code!
 
-[^1]: I personally reccoment Firefox Developer Edition for this, as it comes with a built-in multi line console, unlike most other broswers
+[^1]: I personally reccomend Firefox Developer Edition for this, as it comes with a built-in multi line console, unlike most other broswers
