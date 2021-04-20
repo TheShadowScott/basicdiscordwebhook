@@ -1,10 +1,10 @@
 let webHookUrl = ''; //Put your webhook URL inside the single quotes
 
 let sendMessage = webHookUrl => {
-    let timeStamp = new Date(new Date.getTime()).toISOString();
+    let timeStamp = new Date(new Date().getTime()).toISOString();
     let request = new XMLHttpRequest();
     request.open("POST", webHookUrl);
-    request.setHeader("Content-type", 'application/json');
+    request.setRequestHeader("Content-type", 'application/json');
     let params = {
         name: '', // The username of the bot you wish to send from goes here
         avatar_url: '', // The URL of the avatar goes here
