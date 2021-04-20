@@ -6,7 +6,7 @@ let sendMessage = webHookUrl => {
     request.open("POST", webHookUrl);
     request.setRequestHeader("Content-type", 'application/json');
     let params = {
-        name: '', // The username of the bot you wish to send from goes here
+        username: '', // The username of the bot you wish to send from goes here
         avatar_url: '', // The URL of the avatar goes here
         content: '', // This is the non-embed (text-only) message content
         embeds: [
